@@ -10,7 +10,7 @@ const Navbar = ({ setCurrentPage }) => {
             <div className="max-w-7xl mx-auto flex flex-wrap justify-between items-center">
                 <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse" onClick={() => setCurrentPage('home')}>
                     <span className="self-center text-2xl font-bold whitespace-nowrap text-gray-900 dark:text-white">
-                        BizInsight Hub
+                        Matrix Valuator
                     </span>
                 </a>
 
@@ -33,24 +33,34 @@ const Navbar = ({ setCurrentPage }) => {
                             <a href="#" className={linkClasses} onClick={() => setCurrentPage('home')}>Home</a>
                         </li>
                         <li>
-                            <a href="#" className={linkClasses} onClick={() => setCurrentPage('metrics')}>Metrics & Calculators</a>
+                            <a href="#" className={linkClasses} onClick={() => setCurrentPage('metrics')}>Business
+                                Evaluation</a>
                         </li>
                         <li>
-                            <a href="#" className={linkClasses} onClick={() => setCurrentPage('valuation')}>Business Valuation</a>
+                            <a href="#" className={linkClasses} onClick={() => setCurrentPage('valuation')}>Business
+                                Valuation</a>
                         </li>
                         <li>
-                            <a href="#" className={linkClasses} onClick={() => setCurrentPage('worksheet')}>'Before A Business Start' Worksheet</a>
+                            <a href="#" className={linkClasses}
+                               onClick={() => setCurrentPage('worksheet')}>Worksheet</a>
                         </li>
                         <li>
-                            <a href="#" className={linkClasses} onClick={() => setCurrentPage('resources')}>Resources</a>
+                            <a href="#" className={linkClasses}
+                               onClick={() => setCurrentPage('consultation')}>Consultation</a>
                         </li>
                         <li>
-                            <a href="#" className={linkClasses} onClick={() => setCurrentPage('contact')}>Contact</a>
+                            <a href="#" className={linkClasses}
+                               onClick={() => setCurrentPage('resources')}>Resources</a>
                         </li>
+
                         <li>
-                            <a href="#" className="flex items-center text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 transition-colors duration-200 ml-4 border border-blue-600 dark:border-blue-400 py-1 px-3 rounded-full hover:bg-blue-50 dark:hover:bg-gray-700" onClick={() => setCurrentPage('login')}>
-                                <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1"></path>
+                            <a href="#"
+                               className="flex items-center text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 transition-colors duration-200 ml-4 border border-blue-600 dark:border-blue-400 py-1 px-3 rounded-full hover:bg-blue-50 dark:hover:bg-gray-700"
+                               onClick={() => setCurrentPage('login')}>
+                                <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
+                                          d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1"></path>
                                 </svg>
                                 Sign In / Register
                             </a>

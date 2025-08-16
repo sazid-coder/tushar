@@ -29,6 +29,7 @@ const NetProfitMarginCalculator = () => {
 
         const netProfit = revenue - costs - opEx - tax;
         const margin = (netProfit / revenue) * 100;
+        localStorage.setItem('netProfitMargin', margin)
         setNetProfitMargin(margin.toFixed(2));
     };
 

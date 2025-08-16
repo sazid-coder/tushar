@@ -26,6 +26,7 @@ const RevenueGrowthRateCalculator = () => {
         }
 
         const growthRate = ((current - previous) / previous) * 100;
+        localStorage.setItem('revenueGrowth', growthRate);
         setResult(growthRate.toFixed(2));
     };
 

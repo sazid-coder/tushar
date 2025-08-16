@@ -93,7 +93,7 @@ const MetricsPage = ({ setCurrentPage }) => {
                                 onClick={() => setCurrentPage(metric.id)}
                                 className="block p-4 bg-gray-50 dark:bg-gray-700 rounded-md shadow-sm hover:bg-blue-50 dark:hover:bg-blue-900 transition-colors duration-200 text-left text-gray-800 dark:text-white font-medium hover:text-blue-700 dark:hover:text-blue-300"
                             >
-                                {metric.name} &rarr;
+                                {metric.name}
                             </button>
                         ))}
                     </div>
