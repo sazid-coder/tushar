@@ -3,6 +3,7 @@ import { useTransition, animated } from '@react-spring/web';
 import Navbar from './components/Navbar.jsx';
 import Footer from './components/Footer.jsx';
 import HomePage from './components/pages/HomePage.jsx';
+import PortfolioPage from './components/pages/PortfolioPage.jsx';
 import MetricsPage from './components/pages/MetricsPage.jsx';
 import BerkusValuationPage from './components/pages/BerkusValuationPage.jsx';
 import WorksheetPage from './components/pages/WorksheetPage.jsx';
@@ -21,8 +22,11 @@ const App = () => {
 
     const renderPage = () => {
         switch (currentPage) {
+
             case 'home':
                 return <HomePage setCurrentPage={setCurrentPage} />;
+            case 'portfolio':
+                return <PortfolioPage setCurrentPage={setCurrentPage} />;
             case 'metrics':
                 return <MetricsPage setCurrentPage={setCurrentPage} />;
             case 'valuation':

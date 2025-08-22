@@ -1,3 +1,6 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
 .page-transition {
   animation: fadeIn 0.3s ease-in-out;
 }

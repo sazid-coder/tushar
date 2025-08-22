@@ -33,6 +33,9 @@ const Navbar = ({ setCurrentPage }) => {
                             <a href="#" className={linkClasses} onClick={() => setCurrentPage('home')}>Home</a>
                         </li>
                         <li>
+                            <a href="#" className={linkClasses} onClick={() => setCurrentPage('portfolio')}>Portfolio</a>
+                        </li>
+                        <li>
                             <a href="#" className={linkClasses} onClick={() => setCurrentPage('metrics')}>Business
                                 Evaluation</a>
                         </li>
@@ -42,25 +45,25 @@ const Navbar = ({ setCurrentPage }) => {
                         </li>
                         <li>
                             <a href="#" className={linkClasses}
-                               onClick={() => setCurrentPage('worksheet')}>Worksheet</a>
+                                onClick={() => setCurrentPage('worksheet')}>Worksheet</a>
                         </li>
                         <li>
                             <a href="#" className={linkClasses}
-                               onClick={() => setCurrentPage('consultation')}>Consultation</a>
+                                onClick={() => setCurrentPage('consultation')}>Consultation</a>
                         </li>
                         <li>
                             <a href="#" className={linkClasses}
-                               onClick={() => setCurrentPage('resources')}>Resources</a>
+                                onClick={() => setCurrentPage('resources')}>Resources</a>
                         </li>
 
                         <li>
                             <a href="#"
-                               className="flex items-center text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 transition-colors duration-200 ml-4 border border-blue-600 dark:border-blue-400 py-1 px-3 rounded-full hover:bg-blue-50 dark:hover:bg-gray-700"
-                               onClick={() => setCurrentPage('login')}>
+                                className="flex items-center text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 transition-colors duration-200 ml-4 border border-blue-600 dark:border-blue-400 py-1 px-3 rounded-full hover:bg-blue-50 dark:hover:bg-gray-700"
+                                onClick={() => setCurrentPage('login')}>
                                 <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                                     xmlns="http://www.w3.org/2000/svg">
+                                    xmlns="http://www.w3.org/2000/svg">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
-                                          d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1"></path>
+                                        d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1"></path>
                                 </svg>
                                 Sign In / Register
                             </a>
